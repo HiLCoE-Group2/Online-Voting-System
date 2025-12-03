@@ -1,0 +1,134 @@
+
+.Das_container{
+    background-color: lightgray;
+   
+    
+}
+
+.imagge{
+    width: 200px;
+    margin-left: 35px;
+}
+
+.can{
+    width: 1100px;
+    height: 300px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-areas: 
+    'Title Title Title Title '
+    'Image Image  paragraph paragraph '
+    'Image Image   list list '
+    'Image Image  list  list '
+     'Image Image  slogan  slogan '
+    'Name  Name Name  button';
+}
+
+.can h1{
+    grid-area: Title;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 20px;
+
+}
+.can h2{
+    grid-area: Name;
+    margin-left: 35px;
+    background-color: transparent;
+    margin-right: auto;
+}
+.can p {
+    grid-area: paragraph;
+    font-size: 18px;
+    margin-left: 1%;
+    background-color: transparent;
+    color: black;
+    line-height: 25px;
+}
+.can ul{
+    grid-area: list;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+.can strong{
+    grid-area: slogan;
+    margin-left: 1%;
+}
+.can button{
+    grid-area: button;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.can1{
+background-color: aliceblue;
+ border: 1px solid black;
+ border-radius: 15px;
+ padding: 5px;
+ margin-left: 5%;
+ margin-right: 5%;
+ margin-top: 30px;
+}
+
+.can1 p {
+    font-size: 18px;
+    margin-left: 13%;
+    
+}
+
+.can1 button{
+    width: 70px;
+    margin-left: -20px;
+     border-radius: 5px;
+}
+.can2{
+background-color: aliceblue;
+ border: 1px solid black;
+  border-radius: 15px;
+ padding: 5px;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+.can2 button{
+    width: 70px;
+    border-radius: 5px;
+}
+.can3{
+background-color: aliceblue;
+ border: 1px solid black;
+  border-radius: 15px;
+ padding :5px;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+.can3 button{
+    width: 70px;
+    border-radius: 5px;
+}
+.can4{
+background-color: aliceblue;
+ border: 1px solid black;
+  border-radius: 15px;
+ padding: 5px;
+ margin-left: 5%;
+ margin-right: 5%;
+
+}
+.can4 button{
+    width: 70px;
+    border-radius: 5px;
+   
+}
+.voteBtn{
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 30%;
+    transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+    color: black;
+}
+.voteBtn:hover{
+    background-color:lime;
+    color: white;
+}

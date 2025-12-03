@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    background-color:#C7C7C7;
+    min-height: 100vh;
+    
+}
+.containers{
+    height: 100vh; 
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    background-color:#C7C7C7;
+    min-height: 100vh;
+    overflow-y: hidden;
+    overflow-x:hidden;
+ }
+ legend{
+    background-color: transparent;
+ }
+
+#loginForm{
+    font-size: 60px;
+    margin-bottom: 40px;
+    background-color: #C7C7C7;
+    min-height: 100vh;
+}
+.image{
+    width: 60%; 
+}
+form{
+    width: 10%;
+    background-color:#C7C7C7;
+}
+.forms{   
+    padding: 15%;
+    width: 80%;
+    max-width: 600px;
+    margin-top: -150px;
+    margin-left: -500px;
+    background-color:#C7C7C7;
+    min-height: 100vh;
+}
+
+.field{
+border: 2px solid white; 
+border-radius: 40px;     
+padding: 1em; 
+background-color: transparent;
+}
+    
+
+.passwordd{
+    background-color: #FFFFFF;
+    margin-left: -17px !important;
+    width: 200px !important;
+    padding: 12px !important;
+    
+    
+
+} 
+.link{
+    float: right;
+    text-decoration: none;
+}
+
+.voter_id{
+    background-color: #FFFFFF;
+    height: 10px !important;
+    margin-left: -20px;
+}
+.div11,.div12,.div13{
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+.div11{
+ display: flex;
+ background-color: #C7C7C7;
+
+}
+.div11 label , .div12 label{
+    margin-top: 5px;
+    margin-right: 55px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    width: 100px !important;
+    font-size: 20px;
+}
+.div11 input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 210px;
+    height: 25px;
+}
+
+.div12{
+    display: flex;
+    background-color:#C7C7C7;
+}
+
+.div12 input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 5px;
+}
+
+label{
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.div13{
+    display: flex;
+    justify-content: right;
+    background-color:#C7C7C7 ;
+     margin: 5px 0;
+}
+
+
+.link {
+  font-size: 15px; 
+  background-color: transparent; 
+  padding: 4px 8px; 
+  text-decoration: none; 
+  border-radius: 3px; 
+  color: blue; 
+}
+.div14{
+    display: flex;
+    justify-content: center;
+    background-color:#C7C7C7;
+}
+
+.div14 .btns{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    background-color: #75d1f9;
+    margin-bottom: -100px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #fa076cf8 ;
+}
+
+ .btns:hover{
+    background-color:#1cd161a5;
+    color: white;
+}

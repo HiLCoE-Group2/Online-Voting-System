@@ -1,0 +1,276 @@
+*{
+    border: none;
+    margin: 0;
+    background-color:lightgray;
+
+}
+body {
+  overflow-x: hidden; 
+  background-color: lightgray;
+}
+.container{
+    display: grid;
+   background-color: lightgray;
+   
+}
+
+.vid {
+    width: 100%;
+    height: 300px; 
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+.vid video {
+    margin-top: 2px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+
+}
+.main_part main{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    background-color: lightgray;
+    
+}
+.main_part{
+    min-height: 100vh;
+    background-color: lightgray;
+    
+}
+.instruction{
+    width: 35%;
+    background-color:white;
+    margin-right: 5%;
+    padding: 2%;
+    border-radius: 15px;
+    
+}
+.instruction a {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.instruction p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.instruction-links{
+    background-color: transparent;
+    margin-bottom: 35px;
+}
+.instruction p,h2{
+    color: black;
+
+}
+.overview{
+    width:35%;
+    background-color:white;
+    margin-left: 3%;
+    padding: 2%;
+    border-radius: 15px;
+    margin-right: 2%;
+    
+}
+.overview p,h1{
+    color: black;
+}
+.overview p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .info {
+    position: relative;
+    width: 20%;
+    height: 650px;
+    border-radius: 15px;
+    min-height: 100vh;
+    background-color: lightgray;
+}
+#result {
+    position: absolute;
+    top: 0;
+    right: -100%; 
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0;
+    border-radius: 15px;
+    padding: 10px;
+    transition: right 0.5s ease;
+    z-index: 5;
+}
+#result p{
+    background-color: transparent;
+}
+#result.active {
+    right: 0;
+}
+table {
+width: 100%;
+height: 70%;
+border-collapse: collapse;
+margin-top: 40%;
+}
+th, td {
+padding: 8px;
+text-align: left;
+border: 1px solid #ddd;
+}
+th {
+ background-color: #4CAF50;
+color: white;
+    }
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+
+#toggleBtn {
+    position: absolute;
+    top: 75%; 
+    right: 0;
+    transform: translate(50%, -50%);
+    padding: 10px 14px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: right 0.5s ease, opacity 0.3s ease;
+    z-index: 10;
+}
+
+
+#toggleBtn.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.overview  h1 ,.instruction  h1{
+    display: inline;
+    background-color: transparent;
+    font-size: 35px;
+    text-decoration: underline;
+    
+}
+
+.panel {
+    display: none;
+}
+.instruction h1{
+    background-color: transparent;
+}
+#result{
+    transition: transform 0.3s ease,
+     box-shadow 0.3s ease; 
+}
+#result:hover{
+    transform: translateY(-10px); 
+  box-shadow: 0 8px 16px rgba(1, 36, 5, 0.2); 
+  background-color: rgb(232, 243, 232);
+}
+.overview{
+    transition: transform 0.3s ease,
+     box-shadow 0.3s ease; 
+}
+.overview:hover{
+    transform: translateY(-10px); 
+  box-shadow: 0 8px 16px rgba(1, 36, 5, 0.2); 
+  background-color: rgb(232, 243, 232);
+}
+.instruction{
+    transition: transform 0.3s ease,
+     box-shadow 0.3s ease; 
+}
+.instruction:hover{
+    transform: translateY(-10px); 
+  box-shadow: 0 8px 16px rgba(1, 36, 5, 0.2); 
+  background-color: rgb(232, 243, 232);
+}
+.instruction a{
+    display:block;
+    background-color: transparent;
+    color:blue;
+    text-decoration: none;  
+    line-height: 35px;
+}
+a:hover{
+    color: crimson;
+}
+.overview  p{
+    background-color: transparent;
+    line-height: 22px;
+}
+.instruction .panel h2{
+    background-color: transparent;
+    text-decoration: underline;
+}
+.instruction h1{
+    text-decoration: underline;
+}
+.panel{
+    background-color: transparent;
+}
+
+#panel1 p,
+#panel2 p,
+#panel3 p,
+#panel4 p{
+    background-color: transparent;
+    
+
+}
+#panel3 ol , #panel4 ol, #panel2 ol{
+    background-color: transparent;
+    
+}
+ b{
+  background-color: transparent;
+}
+#panel1 dl{
+    background-color: transparent;
+}
+mark{
+    color: red;
+}
+ #panel4 strong,
+#panel4 mark,
+#panel3 strong,
+#panel3 mark{
+    background-color: transparent;
+}
+#panel2 li,
+#panel3 li,
+#panel4 li{
+     background-color: transparent;
+     
+}
+#panel1 dt,
+#panel1 dd{
+    background-color: transparent;
+}
+.copyright img{
+    width: 20px;
+    height: 20px;
+}
+#res{
+    text-align: center;
+    background-color: transparent;
+    margin-top: 10%;
+    text-decoration: underline;
+}
+#voteMsg{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+    align-self: center;
+    font-size: 40px;
+    margin-top: 30%;
+}

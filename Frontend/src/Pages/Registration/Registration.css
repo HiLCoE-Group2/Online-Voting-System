@@ -1,0 +1,199 @@
+  .Reg_container{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #C7C7C7;
+    overflow-y: hidden;
+ 
+ }
+.legends{
+    font-size: 60px;
+    justify-content: left;
+}
+.Image{
+    width: 265px;
+    height: 600px;
+    
+    
+}
+
+ #registrationForm{
+    height: 600px;
+}
+.fieldsets{
+    border: 2px solid black; 
+    border-radius: 40px;     
+    padding: 2em; 
+    background-color: transparent;
+  
+}
+.password,.first_name,.last_name,.confirm_password,.fin{
+    background-color: #FFFFFF;
+} 
+
+.div50,.div60,.div70,.div80{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.div10{
+    margin-bottom: -15px;
+}
+
+.div20{
+    margin-top: 20px;
+   
+}
+
+.lab1{
+    
+    margin-left: 15px;
+}
+.lab11{
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+}
+
+.div10 input,.div20 input, .div33 input, .div44 input, .div60 input, .div70 input,.div80 input,.btn{
+    border: none;
+    float: right;
+    background-color: #FFFFFF;
+
+}
+.div10,.div20,.div50,.div60,.div70,.div80,.div90{
+ display: flex;
+text-align: center;
+background-color: transparent;
+}
+.div90{
+    justify-content: center;
+    border-radius: 50%;
+}
+.div90 .btn {
+    background-color:#49A4E9;
+    font-size: 15px;
+     color: #FFFFFF;
+     border: none;
+    border-radius: 8px;
+    padding: 8px;
+    width: 200px;
+    margin-bottom: -30px;
+    margin-right: -15px;
+    transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
+}
+.btn:hover{
+    background-color:#1cd161a5;
+    color: black;
+}
+#mname {
+    margin-bottom: -10px;
+    padding: 5px;
+
+}
+
+#mname .lab11{
+    width: 120px !important;
+}
+
+#middle_name{
+    margin-left: 20px;
+    width: 190px !important;
+    border-radius: 5px;
+    margin-top: 5px !important;
+    padding: 0;
+    height: 20px;
+}
+
+.div33 {
+    margin-top: -10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 0;
+    width: 80%;
+    background-color: transparent;
+}
+
+.div44{
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.div80{
+    width: 420px;
+   
+}
+
+.Phone,.Email,.gender,.FIN,.Password,.conf_Password,.lab1{
+    background-color: transparent;
+    font-family:'Times New Roman', Times, serif;
+    background-color: transparent;
+  
+}
+#phone{
+    width: 190px !important;
+    height: 20px;
+     border-radius: 5px;
+     margin-right: 5px;
+}
+
+#GEN{
+    margin-right: 100px;
+}
+
+#email{
+    width: 200px !important;
+     padding: 0px;
+     border-radius: 5px;
+     margin-right: 80px;
+     height: 20px;
+}
+#confirm_password{
+    width: 190px !important;
+    height: 15px;
+    border-radius: 5px;
+     padding: 0px;
+     margin-bottom: 10px;
+     margin-left: -3px !important;
+}
+
+#rad input{
+    margin-right: 9px;
+}
+#password{
+    margin-left: 55px !important;
+    width: 200px !important;
+    height: 20px;
+    border-radius: 5px;
+     padding: 0px;
+  
+}
+#confirm_password{
+    height: 20px;
+    padding: 0;
+}
+#fin{
+    width: 200px !important;
+    border-radius: 5px;
+    padding: 0;
+    margin-left: 95px;
+    height: 20px;
+}
+#first_name{
+    width: 200px;
+    padding: 0;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 45px !important;
+    margin-top: 3px;
+   
+}
+.confirm_password{
+    font-size: 10px;
+}
