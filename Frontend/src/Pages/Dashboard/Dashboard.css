@@ -1,6 +1,6 @@
 
 .Das_container{
-    background-color: lightgray;
+    background-color: #ffffff;
    
     
 }
@@ -29,7 +29,7 @@
     margin-bottom: 20px;
     margin-right: auto;
     margin-left: 20px;
-
+    background-color: transparent;
 }
 .can h2{
     grid-area: Name;
@@ -49,10 +49,15 @@
     grid-area: list;
     margin-left: 1%;
     margin-bottom: 20px;
+    background-color: transparent;
+}
+.can li{
+    background-color: transparent;
 }
 .can strong{
     grid-area: slogan;
     margin-left: 1%;
+    background-color: transparent;
 }
 .can button{
     grid-area: button;
@@ -61,7 +66,7 @@
     border-radius: 5px;
 }
 .can1{
-background-color: aliceblue;
+background-color: #f7f7f7;
  border: 1px solid black;
  border-radius: 15px;
  padding: 5px;
@@ -82,7 +87,7 @@ background-color: aliceblue;
      border-radius: 5px;
 }
 .can2{
-background-color: aliceblue;
+background-color: #f7f7f7;
  border: 1px solid black;
   border-radius: 15px;
  padding: 5px;
@@ -94,7 +99,7 @@ background-color: aliceblue;
     border-radius: 5px;
 }
 .can3{
-background-color: aliceblue;
+background-color: #f7f7f7;
  border: 1px solid black;
   border-radius: 15px;
  padding :5px;
@@ -106,7 +111,7 @@ background-color: aliceblue;
     border-radius: 5px;
 }
 .can4{
-background-color: aliceblue;
+background-color: #f7f7f7;
  border: 1px solid black;
   border-radius: 15px;
  padding: 5px;

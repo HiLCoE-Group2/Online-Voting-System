@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color:#C7C7C7;
+    background-color:#F7F7F7;
     min-height: 100vh;
     
 }
@@ -9,7 +9,7 @@ body{
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    background-color:#C7C7C7;
+    background-color:#F7F7F7;
     min-height: 100vh;
     overflow-y: hidden;
     overflow-x:hidden;
@@ -21,7 +21,7 @@ body{
 #loginForm{
     font-size: 60px;
     margin-bottom: 40px;
-    background-color: #C7C7C7;
+    background-color: #F7F7F7;
     min-height: 100vh;
 }
 .image{
@@ -29,20 +29,20 @@ body{
 }
 form{
     width: 10%;
-    background-color:#C7C7C7;
+    background-color:#F7F7F7;
 }
-.forms{   
+.formss{   
     padding: 15%;
     width: 80%;
     max-width: 600px;
     margin-top: -150px;
     margin-left: -500px;
-    background-color:#C7C7C7;
+    background-color:#F7F7F7;
     min-height: 100vh;
 }
 
-.field{
-border: 2px solid white; 
+.fieldss{
+border: 2px solid black; 
 border-radius: 40px;     
 padding: 1em; 
 background-color: transparent;
@@ -54,9 +54,6 @@ background-color: transparent;
     margin-left: -17px !important;
     width: 200px !important;
     padding: 12px !important;
-    
-    
-
 } 
 .link{
     float: right;
@@ -76,7 +73,7 @@ background-color: transparent;
 }
 .div11{
  display: flex;
- background-color: #C7C7C7;
+ background-color: transparent;
 
 }
 .div11 label , .div12 label{
@@ -94,11 +91,12 @@ background-color: transparent;
     border-radius: 5px;
     width: 210px;
     height: 25px;
+     border: 1px solid black;
 }
 
 .div12{
     display: flex;
-    background-color:#C7C7C7;
+    background-color:transparent;
 }
 
 .div12 input{
@@ -107,6 +105,7 @@ background-color: transparent;
     border-radius: 5px;
     width: 90px;
     height: 5px;
+    border: 1px solid black;
 }
 
 label{
@@ -119,7 +118,7 @@ label{
 .div13{
     display: flex;
     justify-content: right;
-    background-color:#C7C7C7 ;
+    background-color:transparent ;
      margin: 5px 0;
 }
 

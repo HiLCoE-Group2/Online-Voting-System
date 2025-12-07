@@ -3,10 +3,24 @@
     height: 100vh;
     box-sizing: border-box;
     display: flex;
-    background-color: #C7C7C7;
+    background-color: #FFFFFF;
     overflow-y: hidden;
  
  }
+ #registrationForm{
+    
+    background-color: #FFFFFF;
+    min-height: 100vh;
+ }
+  .formssss{
+    padding: 15%;
+    width: 80%;
+    max-width: 600px;
+    margin-top: -150px;
+    margin-left: -500px;
+    background-color: #FFFFFF;
+    min-height: 100vh;
+  }
 .legends{
     font-size: 60px;
     justify-content: left;
@@ -14,9 +28,10 @@
 .Image{
     width: 265px;
     height: 600px;
-    
+    background-color: #FFFFFF;
     
 }
+
 
  #registrationForm{
     height: 600px;
@@ -25,11 +40,11 @@
     border: 2px solid black; 
     border-radius: 40px;     
     padding: 2em; 
-    background-color: transparent;
+    background-color: #ffffff;
   
 }
 .password,.first_name,.last_name,.confirm_password,.fin{
-    background-color: #FFFFFF;
+    background-color: #F7F7F7;
 } 
 
 .div50,.div60,.div70,.div80{
@@ -61,7 +76,8 @@
 .div10 input,.div20 input, .div33 input, .div44 input, .div60 input, .div70 input,.div80 input,.btn{
     border: none;
     float: right;
-    background-color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid black;
 
 }
 .div10,.div20,.div50,.div60,.div70,.div80,.div90{

@@ -2,7 +2,7 @@ export const checkVotingTime = (setVoteMsg, setBtnDisabled, loadResults) => {
   const now = new Date();
 
   const startTime = new Date();
-  startTime.setHours(12, 0, 0, 0);
+  startTime.setHours(9, 0, 0, 0);
 
   const endTime = new Date();
   endTime.setHours(16, 0, 0, 0);

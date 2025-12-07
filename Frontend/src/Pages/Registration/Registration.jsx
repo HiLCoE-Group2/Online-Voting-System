@@ -10,7 +10,7 @@ function Registration() {
       <img src={Image} alt="Ethiopian flag" className='Image'/>
     </section>
 
-    <section className="forms">
+    <section className="formssss">
       <form id="registrationForm">
         <fieldset className='fieldsets'>
           <legend className='legends'>Registration</legend>
